@@ -1,147 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume</title>
-    <style>
-        div
-        {
-            border-radius: 5px;
-        }
-        #header
-        {
-            position: fixed;
-            z-index: 1;
-            height:40px;
-            width: 98%;
-            background-color: #668284;
-            margin-bottom: 10px
-        }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myresume</title>
+    <link class="rounded-circle img-fluid" rel="icon" type="image/x-icon" href="rsduform.jpg">
 
-        #name 
-        {
-            float:left;
-	        margin-left: 20px;
-	        padding-bottom: 10px;
-	        font-size: 16px;
-	        font-family: Verdana, sans-serif;
-	        color: #ffffff;
-        }
 
-        #email
-        {
-            float:right;
-            margin-right: 20px;
-	        padding-bottom: 10px;
-	        font-size: 16px;
-	        font-family: Verdana, sans-serif;
-	        color: #ffffff;
-        }
-        .right
-        {
-            float: left;
-            margin-top: 50px;
-            padding-left:5px;
-            height: auto;
-            width: 99%;
-            background-color: #E3EDD8;
-        }
-        h3
-        {
-            text-decoration: underline;
-        }
-        table
-        {
-            border: 1px dashed black;
-        }
-        td
-        {
-            padding: 2px;
-            border: 1px solid #E88741;
-        }
-        #course-name
-        {
-            font-weight:bold;
-        }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<style>
+  body{
+    background-color: rgb(34 34 34);
+  }
+  
+  .glow-button {
+                     --box-shadow-color: red;
+                     box-shadow: 0 0 30px var(--box-shadow-color);
+                  }
+</style>
+
 </head>
+
 <body>
-    <div id="header">
-        <p id="name">Raj Srivastava</p>
-        <a href="mailto:rsrivastva828@gmail.com" target="_blank"><p id="email">rsrivastva828@gmail.com</p></a>
+
+    <!-- PAGE STUFF -->
+<div class="rela-block page" style="background-color: #121212;">
+    <div class="rela-block top-bar" style="background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(34, 31, 235) 50%, rgb(22, 129, 230) 100%);">
+        <div class="caps name"><div class="abs-center">Raj Srivastava</div></div>
     </div>
-    <div class="right">
-        <h3>CV Highlights</h3>
-        <p>
-            <ul>
-                <li>Currently pursuing Master of Computer Application</li>
-                <li>Learnt basic C,Java,HTML,CSS</li>
-                <li>Good Communication Skills, Presentation Skills and a very good team worker.</li>
-            </ul>
-        </p>
-        <h3>Projects</h3>
-        <p>
-            <ul>
-                <li>Tour and Travel Website</li>
-            </ul>
-        </p>
-        <h3>Educational Qualifications</h3>
-        <table>
-            <tr id="heading">
-                <td>Qualification</td>
-                <td>Board</td>
-                <td>Percentage</td>
-                <td>Year</td>
-            </tr>
-            <tr>
-                <td>10th</td>
-                <td>CBSE</td>
-                <td>74 CGPA</td>
-                <td>2016</td>
-            </tr>
-            <tr>
-                <td>12 th</td>
-                <td>CBSE</td>
-                <td>58%</td>
-                <td>2018</td>
-            </tr>
-            <tr>
-                <td>Bachelor of Computer Application</td>
-                <td>School of Management Sciences</td>
-                <td>69.22%</td>
-                <td>2022</td>
-            </tr>
-            <tr>
-                <td>Master of Computer Application</td>
-                <td>KIET Group of Institution</td>
-                <td>Pursuing</td>
-                <td>Expected 2024</td>
-            </tr>
-        </table>
-        <h3>Technical Skills</h3>
-            <p>
-                <ul>
-                    <li>
-                        <span id="course-name">Programming Skills:</span>HTML, CSS,Javascript,learning C and C++
-                    </li>
-                </ul>
+    <div class="side-bar" style="background-color: rgb(34 34 34)">
+        <div class="mugshot ">
+            <img  
+            class="rounded-circle img-fluid px-2 pt-2 mb-2"
+            src="rsduform.jpg"
+            alt="Profile Photo"
+          />
+         
+          <div class="container  mb-4 " style="border-top: 1px solid gray ;">
+            <div class="btn-group btn-group-sm mt-4 " role="group" aria-label="...">
+              <a href="https://www.linkedin.com/in/raj-srivastava-1aa879165/"><button type="button" class="btn btn-outline-danger"><img style="height: 20px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" alt=""></button></a>
+              <a href="https://github.com/Raj-Srivastava"><button type="button" class="btn btn-outline-danger"><img style="height: 20px;" src="https://raw.githubusercontent.com/gist/theCodingJohn/aabe4816c327d409172ddcd2a19ac5b8/raw/0789098b6eedf94ab855b77af2d022d735f5a1a5/git-icon.svg" alt=""></button></a>
+              <a href="https://www.hackerrank.com/thisisraj"> <button type="button" class="btn btn-outline-danger"><img src="https://cdn.worldvectorlogo.com/logos/hackerrank.svg" alt="" style="height: 20px;"></button></a>
+              
+              
+             
+             
+            </div>
+          </div>
+        </div>
+        
+       
+        <p class="mt-4 text-secondary " style="margin-left: 25%;">+91 9454369315</p>
+        <p class="text-secondary" style="margin-left: 10%;">rsrivastva828@gmail.com</p><br>
+        <h2 class="mb-5 text-white " style="border-bottom: 1px solid whitesmoke;">Education</h2>
+          <ul>
+            <li class="text-white">
+              <h6 class="text-grey">
+                MCA
+              </h6>
+              <p class="text-secondary">
+                KIET Group of Institution 
+                <br>
+                AKTU
+                 <br>
+                <span class="font-weight-bold">2022-2024</span> 
+
+              </p>
+              
+            </li>
+            <li class="text-white">
+              <h6 class="text-white">BCA</h6>
+              <p class="text-secondary">
+                School of Management Sciences <br>  
+                MGKVP <br>
+                <span class="font-weight-bold">2019-2022</span> 
+              </p>
+
+            </li>
+            
+          </ul>
+
+          <h2 class="mb-4 text-white " style="border-bottom: 1px solid whitesmoke">Skills</h2>
+          <div class="container " style="border-bottom: 1px solid whitesmoke">
+
+            <div class="row">
+              <div class="col-sm">
+                <img src="https://www.shareicon.net/data/2016/09/23/833700_windows_512x512.png" alt="" style="height: 40px;">
+              </div>
+              <div class="col-sm">
+               <img src="https://www.pngkit.com/png/full/101-1010012_download-png.png" alt="" style="height: 40px;">
+              </div>
+              <div class="col-sm">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="" style="height: 50px;">
+              </div>
+            </div>
+
+            <div class="row mt-4 mb-2">
+              <div class="col-sm">
+                <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="" style="height: 40px;">
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <div class="rela-block content-container">
+        <h2 class="rela-block caps title text-white"> Back-End Developer </h2>
+        <div class="rela-block separator"></div>
+        <div class="rela-block caps greyed text-white" style="background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(22, 82, 247) 50%, rgb(10, 112, 245) 100%);">Projects</div>
+
+        <h3 class="text-white">Cricket Website</h3>
+        <p class="justified text-white">In this website user can see the detail about cricket and various format like ODI, T20, Test and every page show the detail about that format and winner of  world cup
             </p>
-        <h3>Personal Information:</h3>
-        <p>
-            <ul>
-                <li>
-                    A young, determined hard and smart working person. I believe in task based roles and complete ownership of work.
-                <li>
-                    <span id="course-name">Languages Known:</span>English and Hindi</li>
-                <li>
-                    <span id="course-name">Hobbies:</span>Reading  IT related books / magazines, playing Chess, listening music, surfing Internet, self-learning through e-courses,learning regional languages.
-                </li> 
-            </ul>
-        </p>
-        <h3>Id:</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/raj-srivastava-1aa879165/" target="_blank"><img src="download.png" style="width:40px;"</a></li>
-            <li><a href="https://github.com/Raj-Srivastava" target="_blank"><img src="GitHub-Mark.png" style="width:40px;"</a>
-        </ul>
+            <p class="justified text-white"><b>Frontend:</b> HTML, CSS</p>
+
+            <h3 class="text-white">Tour and Travel Website</h3>
+            <p class="justified text-white">In this website user can see the place information and book their ticket through the website.
+                </p>
+                <p class="justified text-white"><b>Frontend:</b> HTML, CSS</p>
+                <p class="justified text-white"><b>Backend:</b> PHP, Javascript</p>
+                <p class="justified text-white"><b>Database:</b> No SQL</p>
+          
+
+        <div class="rela-block caps greyed text-white" style="background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(23, 94, 248) 50%, rgb(14, 134, 247) 100%);">Certificates</div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-sm" style="border-right: 1px solid grey;">
+              <h6 class="text-white">
+                Web Development with wordpress
+                <p class="text-secondary">Nov 2022 - Dec 2022</p>
+              </h6>
+              <p class="text-secondary">
+               <span class="text-secondary">
+                Abhuday,IIT Bombay
+              </span><br>
+                <a href="https://drive.google.com/drive/u/0/folders/1Ge-vMMOjTY4pG-1h1SqUu3a-0JcZc6wM"><button class="btn btn-outline-success btn-sm">View</button></a>
+              </p>
+            </div>
+            <div class="col-sm" style="border-right: 1px solid grey;">
+              <h6 class="text-white">
+                Python Programming
+                <p class="text-secondary">Nov 2022 - Dec 2022</p>
+              </h6>
+              <p class="text-secondary">
+               <span class="text-secondary">
+                Abhyuday,IIT Bombay   </span><br>
+                <a href="https://drive.google.com/drive/u/0/folders/1Ge-vMMOjTY4pG-1h1SqUu3a-0JcZc6wM"><button class="btn btn-outline-success btn-sm">View</button></a>
+                
+                
+              </p>
+            </div>
+            <div class="col-sm">
+              <h6 class="text-white">
+                HTML Completion 
+                <p class="text-secondary">Jan 2023</p>
+              </h6>
+              <p class="text-secondary">
+               <span class="text-secondary">
+                SoloLearn  </span><br>
+                <a href="https://drive.google.com/drive/u/0/folders/1Ge-vMMOjTY4pG-1h1SqUu3a-0JcZc6wM"><button class="btn btn-outline-success btn-sm">View</button></a>
+                
+                
+              </p>
+    
+              
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <button class="glow-button btn btn-outline-danger mt-5  d-flex float-left text-white" onclick="window.print()">Print Resume</button>
+
+        
+        
     </div>
+    </div>
+   
+</div>
+    
 </body>
 </html>
